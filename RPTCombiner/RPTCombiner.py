@@ -44,6 +44,6 @@ def combine_rpt(
 
 # Example call from inside Python:
 combine_rpt(
-    input_dir=r"C:\Users\X470118\Downloads\Flexi_Jun25 condensed",
-    output_file=r"C:\Users\X470118\Downloads\Flexi_Jun25 condensed\combined.csv"
+    input_dir=r"condensed",
+    output_file=r"condensed\combined.csv"
 )
