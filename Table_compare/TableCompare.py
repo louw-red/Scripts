@@ -9,8 +9,8 @@ from datetime import datetime
 
 
 #inputs
-folderpath1 = "C:\\Users\\X470118\\Desktop\\Development\\OM1 Table Stripper\\TableCompareTestLoc\\TABLES1\\"
-folderpath2 = "C:\\Users\\X470118\\Desktop\\Development\\OM1 Table Stripper\\TableCompareTestLoc\\TABLES2\\"
+folderpath1 = "TABLES1\\"
+folderpath2 = "TABLES2\\"
 
 #Dont Touch
 cwd = os.getcwd()
@@ -88,3 +88,4 @@ for subdir, dirs, files in os.walk(folderpath1):
                     with open(outlog + '\\' + str(current_time)+'.txt','a') as f:
                         f.write('\n')
                         f.write("Cannot find equivalent file for: " + file)
+
